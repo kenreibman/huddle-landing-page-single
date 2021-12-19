@@ -96,7 +96,7 @@ body {
   justify-content: center;
   background-color: var(--violet);
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 81.25rem) {
   body {
     background-image: url(../images/bg-desktop.svg);
     background-position: -2%;
@@ -109,11 +109,11 @@ body {
 .container {
   margin-inline: auto;
   width: 80%;
-  max-width: 1440px;
+  max-width: 90rem;
 
   padding-top: 2rem;
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 81.25rem) {
   .container {
     text-align: initial;
     width: 90%;
@@ -132,7 +132,7 @@ body {
   text-align: center;
   margin-top: 3.7rem;
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 81.25rem) {
   .showcase {
     display: flex;
     text-align: unset;
@@ -146,7 +146,7 @@ body {
 /* ILLUSTRATION */
 .showcase__img {
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 81.25rem) {
   .showcase__img {
     flex-shrink: 0;
   }
@@ -154,7 +154,7 @@ body {
 
 .showcase__img img {
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 56.25rem) {
   .showcase__img img {
     margin: 0 auto;
   }
@@ -163,7 +163,7 @@ body {
 /* CONTAINER FOR TITLE, DESCRIPTION, and BUTTOM */
 .showcase__cta {
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 81.25rem) {
   .showcase__cta {
     width: 100%;
   }
@@ -176,7 +176,7 @@ body {
   margin-top: 4rem;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 81.25rem) {
   .showcase__title {
     margin-top: 2.6rem;
   }
@@ -189,7 +189,7 @@ body {
   opacity: 80%;
   margin-top: 1rem;
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 81.25rem) {
   .showcase__desc {
     margin-top: 1.3rem;
     padding-right: 1rem;
@@ -200,14 +200,14 @@ body {
 .showcase__btn {
   font-size: clamp(0.8rem, 2vw, 1.1rem);
   border: none;
-  padding: 10px 75px;
+  padding: 0.625rem 4.688rem;
   color: var(--violet);
   border-radius: 2rem;
   margin-top: 1.3rem;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 62.5rem) {
   .showcase__btn {
-    padding: 15px 65px;
+    padding: 0.938rem 4.063rem;
   }
 }
 
@@ -221,7 +221,7 @@ body {
 footer {
   padding-top: 2.5rem;
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 81.25rem) {
   footer {
     padding-top: 0rem;
   }
@@ -236,7 +236,7 @@ footer {
   padding: 0;
   margin: 0;
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 81.25rem) {
   .social {
     justify-content: flex-end;
 
@@ -249,7 +249,7 @@ footer {
 .social li {
   margin: 0.3rem;
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 81.25rem) {
   .social li {
     margin: 0.5rem;
   }
@@ -273,7 +273,7 @@ footer {
 
   text-decoration: none;
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 81.25rem) {
   .social li a {
     height: 2.5rem;
     width: 2.5rem;
