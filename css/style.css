@@ -198,6 +198,7 @@ body {
 
 /* REGISTER BUTTON w/HOVER */
 .showcase__btn {
+  background-color: #fff;
   font-size: clamp(0.8rem, 2vw, 1.1rem);
   border: none;
   padding: 0.625rem 4.688rem;
